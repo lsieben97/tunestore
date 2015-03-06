@@ -87,12 +87,13 @@ namespace tune_store_voorbeeld
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
         {
             StreamReader loadinschrijvingen = new StreamReader(ofdLoadLsie.FileName);
-            for (m_nummer = 0; m_nummer < nummer; m_nummer++)
+            while(loadinschrijvingen.EndOfStream == false)
             {
                 tbNaamLsie.Text = loadinschrijvingen.ReadLine();
                 tbAddresLsie.Text = loadinschrijvingen.ReadLine();
                 tbWoonplaatsLsie.Text = loadinschrijvingen.ReadLine();
                 addobject();
+                
                 
             }
             loadinschrijvingen.Close();
