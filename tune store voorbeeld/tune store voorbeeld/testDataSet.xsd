@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="testDataSet" targetNamespace="http://tempuri.org/testDataSet.xsd" xmlns:mstns="http://tempuri.org/testDataSet.xsd" xmlns="http://tempuri.org/testDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="testConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="testConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.tune_store_voorbeeld.Properties.Settings.GlobalReference.Default.testConnectionString" Provider="Microsoft.SqlServerCe.Client.3.5" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="testDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="testDataSet" msprop:Generator_DataSetName="testDataSet" msprop:EnableTableAdapterManager="True">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="test1" msprop:Generator_UserTableName="test1" msprop:Generator_RowDeletedName="test1RowDeleted" msprop:Generator_RowChangedName="test1RowChanged" msprop:Generator_RowClassName="test1Row" msprop:Generator_RowChangingName="test1RowChanging" msprop:Generator_RowEvArgName="test1RowChangeEvent" msprop:Generator_RowEvHandlerName="test1RowChangeEventHandler" msprop:Generator_TableClassName="test1DataTable" msprop:Generator_TableVarName="tabletest1" msprop:Generator_RowDeletingName="test1RowDeleting" msprop:Generator_TablePropName="test1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataColumn1" msprop:Generator_UserColumnName="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

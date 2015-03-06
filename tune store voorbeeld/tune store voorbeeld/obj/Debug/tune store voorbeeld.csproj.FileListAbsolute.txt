@@ -1,0 +1,10 @@
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\tune store voorbeeld.exe
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\tune store voorbeeld.pdb
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune_store_voorbeeld.Form1.resources
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune_store_voorbeeld.Properties.Resources.resources
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.csproj.GenerateResource.Cache
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.exe
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.pdb
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\test.sdf
+C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\tune store voorbeeld.exe.config
