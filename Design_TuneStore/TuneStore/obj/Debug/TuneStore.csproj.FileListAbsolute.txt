@@ -1,0 +1,8 @@
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\bin\Debug\TuneStore.exe
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\bin\Debug\TuneStore.pdb
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.Form1.resources
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.Properties.Resources.resources
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.csproj.GenerateResource.Cache
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.exe
+C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.pdb

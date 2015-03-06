@@ -8,3 +8,6 @@ C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune sto
 C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.pdb
 C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\test.sdf
 C:\Users\Luc\Documents\Visual Studio 2008\Projects\tune store voorbeeld\tune store voorbeeld\bin\Debug\tune store voorbeeld.exe.config
+C:\Users\joey\Documents\GitHub\tunestore\tune store voorbeeld\tune store voorbeeld\bin\Debug\tune store voorbeeld.exe.config
+C:\Users\joey\Documents\GitHub\tunestore\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.exe
+C:\Users\joey\Documents\GitHub\tunestore\tune store voorbeeld\tune store voorbeeld\obj\Debug\tune store voorbeeld.pdb
