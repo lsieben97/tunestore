@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 namespace tune_store_voorbeeld
 {
     public partial class Form1 : Form
     {
         leden[] lid = new leden[100];
         int nummer = 0;
+        int m_nummer;
         public Form1()
         {
             InitializeComponent();
@@ -25,24 +27,30 @@ namespace tune_store_voorbeeld
 
         private void btnToevoegenLsie_Click(object sender, EventArgs e)
         {
+            addobject();
+            
+            
+
+        }
+
+        private void addobject()
+        {
             lid[nummer] = new leden();
             lid[nummer].naam = tbNaamLsie.Text;
             lid[nummer].adres = tbAddresLsie.Text;
             lid[nummer].woonPlaats = tbWoonplaatsLsie.Text;
-           
+
 
             nummer++;
             tbNaamLsie.Clear();
             tbAddresLsie.Clear();
             tbWoonplaatsLsie.Clear();
-            
-
         }
 
-        private void btnShowLsie_Click(object sender, EventArgs e)
+        public void btnShowLsie_Click(object sender, EventArgs e)
         {
             rtbOverzichtLsie.Clear();
-            for (int m_nummer = 0; m_nummer < nummer; m_nummer++ )
+            for (m_nummer = 0; m_nummer < nummer; m_nummer++ )
             {
                 rtbOverzichtLsie.AppendText("naam:\t\t"+lid[m_nummer].naam+"\n");
                 rtbOverzichtLsie.AppendText("adres:\t\t" + lid[m_nummer].adres + "\n");
@@ -58,6 +66,36 @@ namespace tune_store_voorbeeld
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ofdSaveLsie.ShowDialog();
+
+            StreamWriter saveinschrijving = new StreamWriter(ofdSaveLsie.FileName);
+            for (m_nummer = 0; m_nummer < nummer; m_nummer++)
+            {
+                saveinschrijving.WriteLine(lid[m_nummer].naam);
+                saveinschrijving.WriteLine(lid[m_nummer].adres);
+                saveinschrijving.WriteLine(lid[m_nummer].woonPlaats);
+            }
+            saveinschrijving.Close();
+            
+        }
+
+        private void loadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StreamReader loadinschrijvingen = new StreamReader(ofdLoadLsie.FileName);
+            for (m_nummer = 0; m_nummer < nummer; m_nummer++)
+            {
+                tbNaamLsie.Text = loadinschrijvingen.ReadLine();
+                tbAddresLsie.Text = loadinschrijvingen.ReadLine();
+                tbWoonplaatsLsie.Text = loadinschrijvingen.ReadLine();
+                addobject();
+                
+            }
+            loadinschrijvingen.Close();
             
         }
 
