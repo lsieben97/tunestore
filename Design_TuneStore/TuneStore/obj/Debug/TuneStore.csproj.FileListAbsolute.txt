@@ -8,9 +8,11 @@ C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\
 C:\Users\joey\Documents\programmeer mappen\LomansZ'nLes\TuneStore\TuneStore\obj\Debug\TuneStore.pdb
 C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.exe
 C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.pdb
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\bin\Debug\TuneStore.exe
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\bin\Debug\TuneStore.pdb
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.Form1.resources
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.Properties.Resources.resources
-C:\Users\Luc\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.csproj.GenerateResource.Cache
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.exe
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.pdb
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\bin\Debug\TuneStore.exe
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\bin\Debug\TuneStore.pdb
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.Form1.resources
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.Properties.Resources.resources
+C:\Users\joey\Documents\GitHub\tunestore\Design_TuneStore\TuneStore\obj\Debug\TuneStore.csproj.GenerateResource.Cache
